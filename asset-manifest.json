@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/React-App/static/css/main.efabe8db.chunk.css",
+    "main.js": "/React-App/static/js/main.02ff29be.chunk.js",
+    "main.js.map": "/React-App/static/js/main.02ff29be.chunk.js.map",
+    "runtime-main.js": "/React-App/static/js/runtime-main.6d6e9462.js",
+    "runtime-main.js.map": "/React-App/static/js/runtime-main.6d6e9462.js.map",
+    "static/js/2.3e2e52e3.chunk.js": "/React-App/static/js/2.3e2e52e3.chunk.js",
+    "static/js/2.3e2e52e3.chunk.js.map": "/React-App/static/js/2.3e2e52e3.chunk.js.map",
+    "index.html": "/React-App/index.html",
+    "precache-manifest.4ee8594141864b97b8fc7acb994703f2.js": "/React-App/precache-manifest.4ee8594141864b97b8fc7acb994703f2.js",
+    "service-worker.js": "/React-App/service-worker.js",
+    "static/css/main.efabe8db.chunk.css.map": "/React-App/static/css/main.efabe8db.chunk.css.map",
+    "static/js/2.3e2e52e3.chunk.js.LICENSE.txt": "/React-App/static/js/2.3e2e52e3.chunk.js.LICENSE.txt",
+    "static/media/styles.css": "/React-App/static/media/Roboto-Regular.11eabca2.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6d6e9462.js",
+    "static/js/2.3e2e52e3.chunk.js",
+    "static/css/main.efabe8db.chunk.css",
+    "static/js/main.02ff29be.chunk.js"
+  ]
+}
