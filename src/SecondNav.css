@@ -1,0 +1,53 @@
+/* Seccond Nav */
+
+.second-nav {
+	font-family: Roboto-Light;
+	display: flex;
+	flex-direction: row;
+	background-color: #ffa36c;
+	color: white;
+	font-size: 1.1rem;
+	box-shadow: 0 0.2rem 0.5rem 0 grey;
+}
+
+.nav-item {
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	padding: 1rem 1rem;
+	transition: background-color 300ms;
+}
+
+.nav-item:hover {
+	cursor: pointer;
+	color: black;
+	background-color: #ffe4e4;
+}
+
+.hamb {
+	display: none;
+}
+
+
+/* BREAKPOINTS */
+
+@media all and (max-width: 900px) {
+	.nav-item:nth-child(5) {
+		display: none;
+	}
+}
+
+@media all and (max-width: 730px) {
+	.nav-item:nth-child(4) {
+		display: none;
+	}
+}
+
+@media all and (max-width: 560px) {
+	.nav-item {
+		display: none;
+	}
+
+	.hamb {
+		display: inline-block;
+	}
+}

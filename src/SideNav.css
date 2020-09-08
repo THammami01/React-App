@@ -1,0 +1,32 @@
+.side-nav {
+	display: inline-block;
+	padding: 1rem 0;
+	border-right: 1px solid #efbbcf;
+}
+
+.tutorial-name {
+	padding-left: 1rem;
+	font-size: 1.2rem;
+}
+
+.subtutorials {
+	padding-left: 0;
+}
+
+.subtutorial {
+	padding: 0.1rem 1rem;
+	list-style-type: none;
+}
+
+.subtutorial:hover {
+	cursor: pointer;
+	background-color: #efbbcf;
+}
+
+/* BREAKPOINTS */
+
+@media all and (max-width: 730px) {
+	.side-nav {
+		display: none;
+	}
+}

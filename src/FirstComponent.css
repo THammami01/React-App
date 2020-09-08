@@ -1,0 +1,44 @@
+.first-component {
+	display: inline-block;
+	text-align: center;
+	padding: 2rem 4rem;
+	height: auto;
+}
+
+.first-component div:nth-child(1) {
+	color: #056676;
+	font-size: 4.5rem;
+}
+
+.first-component div:nth-child(2) {
+	color: #056676;
+	font-size: 2rem;
+}
+
+.first-component div:nth-child(3),
+.first-component div:nth-child(4) {
+	text-transform: uppercase;
+	padding: 0.8rem;
+	margin: 2rem 0.5rem;
+	color: white;
+	display: inline-block;
+	background-color: #056676;
+	transition: background-color 300ms;
+}
+
+.first-component div:nth-child(3):hover,
+.first-component div:nth-child(4):hover {
+	color: black;
+	background-color: #a3d2ca;
+	cursor: pointer;
+}
+
+/* BREAKPOINTS */
+
+@media all and (max-width: 450px) {
+	.first-component div:nth-child(3),
+	.first-component div:nth-child(4) {
+		display: block;
+		margin: 0.5rem auto;
+	}
+}

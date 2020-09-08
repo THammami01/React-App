@@ -1,0 +1,22 @@
+body {
+	background-color: #ffe4e4;
+	color: #000;
+	font-family: Roboto;
+	user-select: none;
+	margin: 0;
+}
+
+.container {
+	display: block;
+	padding: 1rem 0;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(./Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: Roboto-Light;
+  src: url(./Roboto-Light.ttf);
+}
